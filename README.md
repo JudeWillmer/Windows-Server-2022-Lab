@@ -148,3 +148,28 @@ Install Remote Server Administration Tools (RSAT) on Windows 10 to enable remote
 
 ## Screenshot
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/bb3cd671-7950-40ed-a4bb-8b7ba60dfedf" />
+
+# Lab 6 - Joining a Windows 10 PC to an Active Directory Domain
+
+## Objective
+
+Join a Windows 10 workstation to an Active Directory domain and verify the computer object is successfully created in Active Directory.
+
+## Tasks Completed
+
+- Joined a Windows 10 Pro workstation to the Active Directory domain
+- Authenticated the domain join using domain administrator credentials
+- Restarted the workstation to complete the domain join process
+- Verified the computer object appeared in the **Computers** container within Active Directory Users and Computers (ADUC)
+
+## Skills Demonstrated
+
+- Active Directory Domain Administration
+- Domain Join Configuration
+- Windows 10 Administration
+- Computer Object Management
+- Windows Server 2022 Administration
+
+## Screenshots
+<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/b6825f17-e034-42fa-90b9-3d5f178c7144" />
+ <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/da560618-054f-4d80-908f-c5a8753a5ff4" />
