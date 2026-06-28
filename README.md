@@ -142,10 +142,10 @@ Install Remote Server Administration Tools (RSAT) on Windows 10 to enable remote
 
 ## Notes
 
-> RSAT installed successfully and Active Directory Users and Computers opened correctly. Remote management functionality was not yet available because the Windows 10 workstation had not yet been fully configured to communicate with the Windows Server domain. This will be completed in a later lab.
+RSAT installed successfully and Active Directory Users and Computers (ADUC) connected to the lab.local domain from the Windows 10 workstation. This enables remote administration of the Windows Server 2022 Active Directory environment without requiring administrators to log directly into the domain controller, reflecting a common enterprise administration workflow.
 
 ## Screenshot
-<img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/bb3cd671-7950-40ed-a4bb-8b7ba60dfedf" />
+<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/0dcd11fc-2ff3-4858-8784-89e58aad9440" />
 
 # Lab 6 - Joining a Windows 10 PC to an Active Directory Domain
 
