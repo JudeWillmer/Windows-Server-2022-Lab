@@ -185,3 +185,39 @@ Learn how to join a Windows 10 workstation to an Active Directory domain, verify
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/da560618-054f-4d80-908f-c5a8753a5ff4" />
 <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/53759ca1-558e-4f5e-9ed2-be9ae99fce57" />
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/7da0c3ce-cf9a-488c-a013-b2c22a8fca2f" />
+
+# Lab 7 - Delegating Active Directory Permissions
+
+## Objective
+
+Learn how to delegate administrative tasks within Active Directory by assigning limited permissions to users and security groups, following the Principle of Least Privilege.
+
+---
+
+## Tasks Completed
+
+* Created an Organizational Unit (OU) for delegated administration
+* Used the **Delegation of Control Wizard** to assign administrative permissions
+* Delegated specific Active Directory tasks to a standard domain user
+* Configured delegated permissions for a security group
+* Verified delegated permissions by attempting restricted administrative actions
+* Confirmed delegated users could only perform assigned tasks and were denied unauthorized actions
+
+---
+
+## Skills Demonstrated
+
+* Active Directory Delegation of Control
+* Organizational Unit (OU) Administration
+* Role-Based Access Control (RBAC)
+* Principle of Least Privilege
+* Active Directory Security Delegation
+* Windows Server 2022 Administration
+
+---
+
+## Screenshots
+<img width="1917" height="970" alt="image" src="https://github.com/user-attachments/assets/8ae0e976-c092-422e-bbd3-51b451112614" />
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/c35f44e8-76f4-4822-885e-7013168efc81" />
+<img width="1917" height="970" alt="image" src="https://github.com/user-attachments/assets/b67f5458-6aab-49e1-9200-342de1a9e4c8" />
+<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/3368b43b-6ca9-4478-96ae-3ae55473ba7a" />
