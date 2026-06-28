@@ -11,7 +11,6 @@ Practice common Active Directory administrative tasks performed by IT Support pr
 - Created an Active Directory user account
 - Reset a user password
 - Disabled a user account
-- Unlocked a locked user account
 - Moved a user account to an Organizational Unit (OU)
 - Searched for users using Find Users, Contacts and Groups
 - Verified deleted objects using the Active Directory Recycle Bin
@@ -29,7 +28,6 @@ Practice common Active Directory administrative tasks performed by IT Support pr
 <img width="1918" height="1040" alt="image" src="https://github.com/user-attachments/assets/6c35962f-904c-43c5-bd47-ccfb354b4dcd" />
 <img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/242cf10e-9068-4a40-8521-8c14650049bd" />
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/f675af4d-449b-4b65-b41b-19f97a362540" />
-<img width="1918" height="987" alt="image" src="https://github.com/user-attachments/assets/47f3fbd9-a49a-4a9f-82b3-f908e6e97127" />
 <img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/e3658104-5982-43e4-a81e-ddac950df886" />
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/27e9a6b9-b216-4f5a-aa79-b624c17248d2" />
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/c8d9d5da-4d6b-49a3-b119-74ff89b8c30b" />
