@@ -172,4 +172,4 @@ Join a Windows 10 workstation to an Active Directory domain and verify the compu
 
 ## Screenshots
 <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/b6825f17-e034-42fa-90b9-3d5f178c7144" />
- <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/da560618-054f-4d80-908f-c5a8753a5ff4" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/da560618-054f-4d80-908f-c5a8753a5ff4" />
