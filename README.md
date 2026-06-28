@@ -149,32 +149,34 @@ Install Remote Server Administration Tools (RSAT) on Windows 10 to enable remote
 ## Screenshot
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/bb3cd671-7950-40ed-a4bb-8b7ba60dfedf" />
 
-# Lab 6 - Mapped Network Drives & Shared Folder Access
+# Lab 6 - Joining a Windows 10 PC to an Active Directory Domain
 
 ## Objective
 
-Learn how to automatically map a network drive for an Active Directory user and verify access to shared resources from a Windows 10 domain-joined workstation.
+Learn how to join a Windows 10 workstation to an Active Directory domain, verify the computer object in Active Directory, and confirm domain users can access mapped network drives and shared resources.
 
 ---
 
 ## Tasks Completed
 
-* Configured a mapped network drive (Z:) for an Active Directory user account
-* Assigned the shared folder network path in the user's AD Profile settings
-* Logged into Windows 10 using the domain user account
-* Verified the Z: network drive was automatically mapped
-* Confirmed access to shared folders and files hosted on Windows Server 2022
+- Joined a Windows 10 Pro workstation to the **lab.local** Active Directory domain
+- Authenticated the domain join using domain administrator credentials
+- Verified the Windows 10 computer object appeared in Active Directory Users and Computers
+- Logged into Windows 10 using the **Nancy Smith** domain user account
+- Confirmed the mapped **Z:** network drive appeared automatically
+- Verified access to shared files and folders through the mapped network drive
 
 ---
 
 ## Skills Demonstrated
 
-* Active Directory Users and Computers (ADUC)
-* User Profile Configuration
-* Network Drive Mapping
-* SMB Shared Folder Access
-* Windows 10 Domain Authentication
-* Windows Server File Sharing
+- Active Directory Domain Administration
+- Windows 10 Domain Join
+- Computer Object Management
+- Domain User Authentication
+- Network Drive Mapping
+- SMB Shared Folder Access
+- Windows Server Administration
 
 ---
 
