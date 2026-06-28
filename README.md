@@ -219,3 +219,42 @@ Learn how to delegate administrative tasks within Active Directory by assigning 
 <img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/c35f44e8-76f4-4822-885e-7013168efc81" />
 <img width="1917" height="970" alt="image" src="https://github.com/user-attachments/assets/b67f5458-6aab-49e1-9200-342de1a9e4c8" />
 <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/3368b43b-6ca9-4478-96ae-3ae55473ba7a" />
+
+# Lab 8 - Creating Real-World IT Support Tickets
+
+## Objective
+
+Simulate common Active Directory Help Desk scenarios by resolving user account issues and onboarding a new technician within a Windows Server 2022 domain environment.
+
+---
+
+## Tasks Completed
+
+* Resolved a locked Active Directory user account
+* Removed an accidental account expiration to restore user access
+* Copied an existing Active Directory user account to provision a new technician
+* Organized technician accounts into a dedicated Organizational Unit (OU)
+* Simulated common IT Support tickets using Active Directory Users and Computers (ADUC)
+
+---
+
+## Skills Demonstrated
+
+* Active Directory User Administration
+* Account Lockout Resolution
+* Account Expiration Management
+* User Provisioning
+* Organizational Unit (OU) Management
+* Active Directory Users and Computers (ADUC)
+* Windows Server 2022 Administration
+* Help Desk Troubleshooting
+
+---
+
+## Screenshots
+<img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/3e7da294-7fdd-4cb8-aff0-46e637f68a17" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/89a33a7f-fa7b-4949-acc5-b6e7e6e99ae3" />
+<img width="1918" height="1007" alt="image" src="https://github.com/user-attachments/assets/f3490c77-b596-4115-a499-9b9c90733dcd" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/7acdaadc-e315-49ab-85fb-eb3f35c047ef" />
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/62be0508-380e-4260-b033-209f28d0b8f2" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/68f3a4ba-120f-4be4-8087-4ebcdb30c203" />
