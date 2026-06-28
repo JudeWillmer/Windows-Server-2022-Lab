@@ -19,7 +19,6 @@ Practice common Active Directory administrative tasks performed by IT Support pr
 
 - Active Directory user administration
 - Password management
-- Account lockout management
 - Account lifecycle management
 - Organizational Unit (OU) management
 - Active Directory object recovery
@@ -139,10 +138,6 @@ Install Remote Server Administration Tools (RSAT) on Windows 10 to enable remote
 - Microsoft Management Console (MMC)
 - Active Directory Administration Tools
 - Remote Administration Preparation
-
-## Notes
-
-RSAT installed successfully and Active Directory Users and Computers (ADUC) connected to the lab.local domain from the Windows 10 workstation. This enables remote administration of the Windows Server 2022 Active Directory environment without requiring administrators to log directly into the domain controller, reflecting a common enterprise administration workflow.
 
 ## Screenshot
 <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/0dcd11fc-2ff3-4858-8784-89e58aad9440" />
