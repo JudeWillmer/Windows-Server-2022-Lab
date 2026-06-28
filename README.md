@@ -149,27 +149,63 @@ Install Remote Server Administration Tools (RSAT) on Windows 10 to enable remote
 ## Screenshot
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/bb3cd671-7950-40ed-a4bb-8b7ba60dfedf" />
 
-# Lab 6 - Joining a Windows 10 PC to an Active Directory Domain
+# Lab 6 - Mapped Network Drives & Shared Folder Access
 
 ## Objective
 
-Join a Windows 10 workstation to an Active Directory domain and verify the computer object is successfully created in Active Directory.
+Learn how to automatically map a network drive for an Active Directory user and verify access to shared resources from a Windows 10 domain-joined workstation.
+
+---
 
 ## Tasks Completed
 
-- Joined a Windows 10 Pro workstation to the Active Directory domain
-- Authenticated the domain join using domain administrator credentials
-- Restarted the workstation to complete the domain join process
-- Verified the computer object appeared in the **Computers** container within Active Directory Users and Computers (ADUC)
+* Configured a mapped network drive (Z:) for an Active Directory user account
+* Assigned the shared folder network path in the user's AD Profile settings
+* Logged into Windows 10 using the domain user account
+* Verified the Z: network drive was automatically mapped
+* Confirmed access to shared folders and files hosted on Windows Server 2022
+
+---
 
 ## Skills Demonstrated
 
-- Active Directory Domain Administration
-- Domain Join Configuration
-- Windows 10 Administration
-- Computer Object Management
-- Windows Server 2022 Administration
+* Active Directory Users and Computers (ADUC)
+* User Profile Configuration
+* Network Drive Mapping
+* SMB Shared Folder Access
+* Windows 10 Domain Authentication
+* Windows Server File Sharing
+
+---
 
 ## Screenshots
+
+### 1. Configured Active Directory User Profile
+
+Mapped the **Z:** drive to the shared folder by configuring the user's Profile tab in Active Directory Users and Computers.
+
+*(Insert Screenshot 1)*
+
+---
+
+### 2. Verified Mapped Network Drive
+
+Logged into the Windows 10 domain workstation and confirmed the **Z:** network drive automatically appeared under **Network Locations**.
+
+*(Insert Screenshot 2)*
+
+---
+
+### 3. Accessed the Shared Network Drive
+
+Opened the mapped **Z:** drive and verified successful access to the shared folder hosted on Windows Server.
+
+*(Insert Screenshot 3)*
+
+---
+
+### 4. Verified Shared Files and Folders
 <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/b6825f17-e034-42fa-90b9-3d5f178c7144" />
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/da560618-054f-4d80-908f-c5a8753a5ff4" />
+<img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/53759ca1-558e-4f5e-9ed2-be9ae99fce57" />
+<img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/7da0c3ce-cf9a-488c-a013-b2c22a8fca2f" />
