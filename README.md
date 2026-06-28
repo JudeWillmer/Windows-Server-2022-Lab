@@ -256,5 +256,5 @@ Simulate common Active Directory Help Desk scenarios by resolving user account i
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/89a33a7f-fa7b-4949-acc5-b6e7e6e99ae3" />
 <img width="1918" height="1007" alt="image" src="https://github.com/user-attachments/assets/f3490c77-b596-4115-a499-9b9c90733dcd" />
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/7acdaadc-e315-49ab-85fb-eb3f35c047ef" />
-<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/62be0508-380e-4260-b033-209f28d0b8f2" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/5d4cef84-d78a-4223-975c-e705cb06476d" />
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/68f3a4ba-120f-4be4-8087-4ebcdb30c203" />
