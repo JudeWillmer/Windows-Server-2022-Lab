@@ -179,32 +179,6 @@ Learn how to automatically map a network drive for an Active Directory user and 
 ---
 
 ## Screenshots
-
-### 1. Configured Active Directory User Profile
-
-Mapped the **Z:** drive to the shared folder by configuring the user's Profile tab in Active Directory Users and Computers.
-
-*(Insert Screenshot 1)*
-
----
-
-### 2. Verified Mapped Network Drive
-
-Logged into the Windows 10 domain workstation and confirmed the **Z:** network drive automatically appeared under **Network Locations**.
-
-*(Insert Screenshot 2)*
-
----
-
-### 3. Accessed the Shared Network Drive
-
-Opened the mapped **Z:** drive and verified successful access to the shared folder hosted on Windows Server.
-
-*(Insert Screenshot 3)*
-
----
-
-### 4. Verified Shared Files and Folders
 <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/b6825f17-e034-42fa-90b9-3d5f178c7144" />
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/da560618-054f-4d80-908f-c5a8753a5ff4" />
 <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/53759ca1-558e-4f5e-9ed2-be9ae99fce57" />
