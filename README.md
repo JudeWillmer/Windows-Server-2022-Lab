@@ -24,7 +24,7 @@ Practice common Active Directory administrative tasks performed by IT Support pr
 - Active Directory object recovery
 
 ### Screenshots
-<img width="1918" height="1040" alt="image" src="https://github.com/user-attachments/assets/6c35962f-904c-43c5-bd47-ccfb354b4dcd" />
+<img width="1918" height="1040" alt="Image 1" src="https://github.com/user-attachments/assets/6c533310-2f20-485e-9a31-691bf238cfd0" />
 <img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/242cf10e-9068-4a40-8521-8c14650049bd" />
 <img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/f675af4d-449b-4b65-b41b-19f97a362540" />
 <img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/e3658104-5982-43e4-a81e-ddac950df886" />
