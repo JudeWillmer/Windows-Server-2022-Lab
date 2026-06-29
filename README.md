@@ -93,10 +93,10 @@ Learn how to create SMB network shares, configure NTFS and Share permissions, an
 ---
 
 ## Screenshots
-<img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/b8b8531b-3174-4447-b549-01b14bd9093a" />
-<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/eda8daf6-8c20-4cff-b474-8fda13142847" />
-<img width="1918" height="990" alt="image" src="https://github.com/user-attachments/assets/86d6b0bb-2f93-4898-aa62-8b878a7ffb86" />
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/8a4fcb77-54b5-45a6-9903-6802c6dbb3c7" />
+<img width="1918" height="965" alt="Image 1" src="https://github.com/user-attachments/assets/39c2a222-05cf-4d62-affc-7d106d7dd46a" />
+<img width="1917" height="962" alt="Image 2" src="https://github.com/user-attachments/assets/121f4916-f6e9-4f10-887e-bccdf0c89426" />
+<img width="1918" height="990" alt="Image 3" src="https://github.com/user-attachments/assets/76fa5d5b-a264-41ad-ab78-28169ae7dc39" />
+<img width="1917" height="967" alt="Image 4" src="https://github.com/user-attachments/assets/896e0f64-05dd-4e45-8e4e-075659a40b30" />
 
 # Lab 4 - Mapping Network Drives for End Users
 
