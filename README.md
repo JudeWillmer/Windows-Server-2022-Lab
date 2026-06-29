@@ -44,6 +44,7 @@ Learn how to configure and manage Group Policy Objects (GPOs) to enforce securit
 - Configured the Account Lockout Duration security policy
 - Navigated Administrative Templates and Security Settings
 - Managed Group Policy using the Group Policy Management Console (GPMC)
+- Created and linked a custom Group Policy Object (GPO) to the Jay Tech Organizational Unit (OU)
 
 **Skills Demonstrated**
 
@@ -53,11 +54,13 @@ Learn how to configure and manage Group Policy Objects (GPOs) to enforce securit
 - Administrative Templates
 - Windows Server Administration
 - Enterprise Policy Management
+- Group Policy Object (GPO) Creation and OU Linking
 
 ## Screenshots
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/ac646001-bf36-4eed-8b18-b535a76e4786" />
 <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/8dad8840-cffc-4d43-9c54-1c6b8804fe1f" />
 <img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/c9bc113e-d2bc-48c3-81d3-a0b663036f57" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/7db570a6-06d5-4085-97f3-372bf987722c" />
 
 # Lab 3 - Shared Folders & NTFS Permissions
 
