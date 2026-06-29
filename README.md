@@ -25,11 +25,12 @@ Practice common Active Directory administrative tasks performed by IT Support pr
 
 ### Screenshots
 <img width="1918" height="1040" alt="Image 1" src="https://github.com/user-attachments/assets/6c533310-2f20-485e-9a31-691bf238cfd0" />
-<img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/242cf10e-9068-4a40-8521-8c14650049bd" />
-<img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/f675af4d-449b-4b65-b41b-19f97a362540" />
-<img width="1917" height="1037" alt="image" src="https://github.com/user-attachments/assets/e3658104-5982-43e4-a81e-ddac950df886" />
-<img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/27e9a6b9-b216-4f5a-aa79-b624c17248d2" />
-<img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/c8d9d5da-4d6b-49a3-b119-74ff89b8c30b" />
+<img width="1917" height="1037" alt="image 2" src="https://github.com/user-attachments/assets/b76b1a84-a453-4409-a6d5-91c7a2250964" />
+<img width="1918" height="1037" alt="Image 3" src="https://github.com/user-attachments/assets/af42c4f3-19e4-4f24-a888-9e967a5949ff" />
+<img width="1917" height="1037" alt="Image 4" src="https://github.com/user-attachments/assets/dc6a991a-298c-4978-9f53-4f847fe8b6e3" />
+<img width="1918" height="1037" alt="Image 5" src="https://github.com/user-attachments/assets/82dab5fc-507b-4633-be57-262e02561ceb" />
+<img width="1918" height="1037" alt="Image 6" src="https://github.com/user-attachments/assets/fc24b70a-6763-49e2-836f-e93a247d63cf" />
+
 
 # Lab 2 - Group Policy Management
 
