@@ -58,10 +58,10 @@ Learn how to configure and manage Group Policy Objects (GPOs) to enforce securit
 - Group Policy Object (GPO) Creation and OU Linking
 
 ## Screenshots
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/ac646001-bf36-4eed-8b18-b535a76e4786" />
-<img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/8dad8840-cffc-4d43-9c54-1c6b8804fe1f" />
-<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/c9bc113e-d2bc-48c3-81d3-a0b663036f57" />
-<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/7db570a6-06d5-4085-97f3-372bf987722c" />
+<img width="1917" height="967" alt="Image 1" src="https://github.com/user-attachments/assets/a42b31e0-8194-4ae5-ba2f-bed5af334e97" />
+<img width="1918" height="966" alt="Image 2" src="https://github.com/user-attachments/assets/a2a5a309-c470-401c-ae65-442d7f96c215" />
+<img width="1917" height="966" alt="Image 3" src="https://github.com/user-attachments/assets/db9a5201-eb3a-42a8-a079-872b3ec331da" />
+<img width="1918" height="970" alt="Image 4" src="https://github.com/user-attachments/assets/cd08a4e1-9d63-467b-b476-fc43760ee2d8" />
 
 # Lab 3 - Shared Folders & NTFS Permissions
 
