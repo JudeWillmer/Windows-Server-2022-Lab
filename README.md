@@ -120,7 +120,7 @@ Learn how to configure a Home Folder network drive for an Active Directory user 
 - Windows Server Administration
 
 ## Screenshots
-<img width="1918" height="987" alt="image" src="https://github.com/user-attachments/assets/e142ccb2-7c52-4ad2-a0f9-a75f0ff6b488" />
+<img width="1918" height="987" alt="Image 1" src="https://github.com/user-attachments/assets/d139057d-3582-49ac-9af4-1c8093ef982e" />
 
 # Lab 5 - Installing RSAT Tools on Windows 10
 
