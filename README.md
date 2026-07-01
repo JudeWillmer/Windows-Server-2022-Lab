@@ -1,5 +1,3 @@
-## Completed Labs
-
 ### Lab 1 - Active Directory User Management Basics
 
 **Objective**
