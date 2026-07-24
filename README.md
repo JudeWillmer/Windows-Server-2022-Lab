@@ -19,5 +19,5 @@
 │   └── images/
 │
 └── 05-Troubleshooting/
-│   ├── README.md
-│   └── images/
+    ├── README.md
+    └── images/
