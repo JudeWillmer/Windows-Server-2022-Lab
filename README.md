@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository demonstrates the administration of a Windows Server 2022 environment for a fictional organisation, **JayTech**. The project simulates common tasks performed by IT Support professionals, including Active Directory administration, Group Policy management, shared folder permissions, domain management, and troubleshooting.
+This repository documents my Windows Server 2022 lab, where I practised common tasks performed by an IT Support Technician using a fictional company called **JayTech**.
 
-The objective of this project is to develop practical Windows Server administration skills while following industry-standard practices commonly used in enterprise environments.
+Throughout this project, I configured Active Directory, managed users and groups, applied Group Policies, created shared folders, joined Windows 10 clients to the domain, and worked through common troubleshooting scenarios. The goal was to build practical, hands-on experience with Windows Server administration while documenting each task as I completed it.
 
 ---
 
@@ -34,20 +34,20 @@ The objective of this project is to develop practical Windows Server administrat
 
 ### 📁 01 - User and Group Management
 
-Create and manage Active Directory users, organisational units (OUs), and security groups while performing common administrative tasks such as password resets and account management.
+Creating and managing Active Directory users, organisational units (OUs), and security groups while carrying out common administrative tasks such as password resets and account management.
 
 ### 📁 02 - Group Policy
 
-Configure and apply Group Policy Objects (GPOs) to centrally manage users and computers within the domain.
+Creating and applying Group Policy Objects (GPOs) to manage user and computer settings across the domain.
 
 ### 📁 03 - Shared Folders
 
-Create shared folders, configure NTFS and Share permissions, and manage secure access using Active Directory security groups.
+Creating shared folders, configuring NTFS and Share permissions, and managing access using Active Directory security groups.
 
 ### 📁 04 - Domain Join
 
-Join Windows 10 client computers to the Active Directory domain and verify successful authentication using domain user accounts.
+Joining Windows 10 client computers to the Active Directory domain and verifying successful authentication using domain user accounts.
 
 ### 📁 05 - Troubleshooting
 
-Diagnose and resolve common Windows Server and Active Directory issues, including domain join failures, Group Policy problems, DNS configuration, user authentication, and file permission issues.
+Investigating and resolving common Windows Server and Active Directory issues, including Group Policy, DNS, authentication, domain join, and file permission problems.
