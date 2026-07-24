@@ -1,4 +1,4 @@
-# Windows-Server-2022-Lab
+# Windows Server 2022 Lab
 
 ## Project Overview
 
