@@ -1,23 +1,25 @@
 # Windows-Server-2022-Lab
+```text
+Windows-Server-2022-Lab/
 │
 ├── README.md
 │
 ├── 01-User-and-Group-Management/
 │   ├── README.md
-│   └── images/
+│   └── Images/
 │
 ├── 02-Group-Policy/
 │   ├── README.md
-│   └── images/
+│   └── Images/
 │
 ├── 03-Shared-Folders/
 │   ├── README.md
-│   └── images/
+│   └── Images/
 │
 ├── 04-Domain-Join/
 │   ├── README.md
-│   └── images/
+│   └── Images/
 │
 └── 05-Troubleshooting/
     ├── README.md
-    └── images/
+    └── Images/
