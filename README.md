@@ -1,25 +1,22 @@
 # Windows-Server-2022-Lab
-```text
-Windows-Server-2022-Lab/
-│
-├── README.md
-│
-├── 01-User-and-Group-Management/
-│   ├── README.md
-│   └── Images/
-│
-├── 02-Group-Policy/
-│   ├── README.md
-│   └── Images/
-│
-├── 03-Shared-Folders/
-│   ├── README.md
-│   └── Images/
-│
-├── 04-Domain-Join/
-│   ├── README.md
-│   └── Images/
-│
-└── 05-Troubleshooting/
-    ├── README.md
-    └── Images/
+
+## Overview
+
+This repository demonstrates the administration of a Windows Server 2022 environment within a simulated business environment (JayTech). The project focuses on the core responsibilities of an IT Support Technician, including Active Directory administration, Group Policy, shared folder management, domain-joined clients, and troubleshooting.
+
+## Technologies
+
+- Windows Server 2022
+- Active Directory Domain Services (AD DS)
+- Group Policy
+- Windows 10
+- VirtualBox
+- PowerShell
+
+## Project Sections
+
+- User & Group Management
+- Group Policy
+- Shared Folders
+- Domain Join
+- Troubleshooting
