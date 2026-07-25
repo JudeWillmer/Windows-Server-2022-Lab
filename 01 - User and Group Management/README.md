@@ -220,3 +220,46 @@ The selected users were successfully assigned to their respective **security gro
 **Figure 5:** Users assigned to the appropriate security groups within the **JayTech** Active Directory environment.
 
 <img width="1138" height="892" alt="05 – Managing Security Group Membership" src="https://github.com/user-attachments/assets/5eada875-1c9a-4ea2-8eb9-352614b3d4f5" />
+
+# Task 6 - Resetting a User Password
+
+## Objective
+
+Reset an **Active Directory** user account password to restore account access and maintain secure user account administration.
+
+---
+
+## Implementation
+
+I reset the password for an existing **Active Directory** user account using **Active Directory Users and Computers**. Password resets are one of the most common tasks performed by **IT Support** and **System Administrators**, allowing users to regain access to their accounts while supporting secure authentication and organisational security policies.
+
+---
+
+## Navigation
+
+```text
+Active Directory Users and Computers
+→ Expand lab.local
+→ Expand JayTech
+→ Expand Users
+→ Right-click User
+→ Reset Password
+→ Enter New Password
+→ Confirm New Password
+→ Configure Password Options
+→ OK
+```
+
+---
+
+## Outcome
+
+The user's password was successfully reset, allowing them to authenticate using the new credentials. Password reset options, such as requiring the user to change their password at the next sign-in, help maintain security and encourage users to create their own confidential passwords.
+
+---
+
+## Screenshot
+
+**Figure 6:** Resetting an **Active Directory** user account password within the **JayTech** environment.
+
+<img width="1010" height="887" alt="06 – Resetting a User Password" src="https://github.com/user-attachments/assets/e030075c-8e03-4ab1-a5d2-49dfe030e229" />
