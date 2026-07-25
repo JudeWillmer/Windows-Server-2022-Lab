@@ -130,3 +130,46 @@ A new **Active Directory** user account was successfully created within the **Ja
 **Figure 3:** Creating a new user account within the **JayTech** Active Directory environment.
 
 <img width="1917" height="888" alt="03 – Creating a User Account" src="https://github.com/user-attachments/assets/35dbc75f-0684-48ae-98d1-b1243b33a658" />
+
+# Task 4 - Creating a Security Group
+
+## Objective
+
+Create a **security group** within **Active Directory** to simplify permission management and provide a scalable way to assign access to users.
+
+---
+
+## Implementation
+
+I created a new **security group** within the **Groups** organisational unit. Security groups allow permissions to be assigned to a group rather than individual users, making administration more efficient and easier to manage as the environment grows.
+
+---
+
+## Navigation
+
+```text
+Active Directory Users and Computers
+→ Expand lab.local
+→ Expand JayTech
+→ Right-click Groups
+→ New
+→ Group
+→ Enter Group Name
+→ Select Global
+→ Select Security
+→ OK
+```
+
+---
+
+## Outcome
+
+A **Global Security Group** was successfully created within the **JayTech** environment. The group can now be used to manage permissions and simplify user administration throughout the Active Directory environment.
+
+---
+
+## Screenshot
+
+**Figure 4:** Creating a Global Security Group within the **JayTech** Active Directory environment.
+
+<img width="1087" height="888" alt="04 – Creating a Security Group" src="https://github.com/user-attachments/assets/7e4fdf91-ef56-4213-99dc-92a12289a18c" />
