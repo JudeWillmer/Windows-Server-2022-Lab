@@ -1,4 +1,4 @@
-# 01 - User and Group Management
+# User and Group Management
 
 ## Overview
 
