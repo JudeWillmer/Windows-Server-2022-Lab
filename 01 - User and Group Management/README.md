@@ -34,6 +34,9 @@ Control Panel
 → OK
 ```
 
+## Outcome
+The server was successfully configured with a static IPv4 address, providing a reliable network foundation for the Active Directory environment.
+
 ---
 
 ## Screenshot
@@ -41,9 +44,3 @@ Control Panel
 **Figure 1:** Configuring a static IPv4 address for the Windows Server.
 
 <img width="1273" height="883" alt="01 – Static IP Configuration" src="https://github.com/user-attachments/assets/c909e1c9-e5c9-49ac-9d34-42d8f5d3df63" />
-
----
-
-## Outcome
-
-The server was successfully configured with a **static IPv4 address**, providing a reliable network foundation for the **Active Directory** environment.
