@@ -262,4 +262,4 @@ The user's password was successfully reset, allowing them to authenticate using 
 
 **Figure 6:** Resetting an **Active Directory** user account password within the **JayTech** environment.
 
-<img width="1010" height="887" alt="06 – Resetting a User Password" src="https://github.com/user-attachments/assets/e030075c-8e03-4ab1-a5d2-49dfe030e229" />
+<img width="1137" height="887" alt="06 – Resetting a User Password" src="https://github.com/user-attachments/assets/c157f0d0-bb36-495f-b03e-33c1c9ee35f7" />
