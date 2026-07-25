@@ -15,7 +15,7 @@ Throughout this project, I configured Active Directory, managed users and groups
 - Group Policy
 - Windows 10
 - VirtualBox
-- PowerShell
+- Command Prompt
 
 ---
 
