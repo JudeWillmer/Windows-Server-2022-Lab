@@ -71,7 +71,7 @@ Active Directory Users and Computers
 → OK
 ```
 
-*Repeat the process for each Organisational Unit created.*
+*Repeated the process for each Organisational Unit created.*
 
 ---
 
