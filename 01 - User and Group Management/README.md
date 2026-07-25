@@ -44,3 +44,45 @@ The server was successfully configured with a static IPv4 address, providing a r
 **Figure 1:** Configuring a static IPv4 address for the Windows Server.
 
 <img width="1273" height="883" alt="01 – Static IP Configuration" src="https://github.com/user-attachments/assets/c909e1c9-e5c9-49ac-9d34-42d8f5d3df63" />
+
+# Task 2 - Creating the Organisational Unit (OU) Structure
+
+## Objective
+
+Create a structured **Organisational Unit (OU)** hierarchy within **Active Directory** to organise users, computers, and security groups for the fictional **JayTech** environment.
+
+---
+
+## Implementation
+
+I created a structured **Organisational Unit (OU)** hierarchy within the **JayTech** organisational unit to organise users, computers, and security groups into logical containers. This structure simplifies administration, supports the application of **Group Policy**, and follows common **Active Directory** best practices.
+
+---
+
+## Navigation
+
+```text
+Active Directory Users and Computers
+→ Expand lab.local
+→ Right-click JayTech
+→ New
+→ Organisational Unit
+→ Enter OU Name
+→ OK
+```
+
+*Repeat the process for each Organisational Unit created.*
+
+---
+
+## Outcome
+
+A structured **Active Directory** environment was created within the **JayTech** organisational unit, providing a logical hierarchy for managing users, computers, and security groups throughout the Windows Server lab.
+
+---
+
+## Screenshot
+
+**Figure 2:** Organisational Unit structure created within the **JayTech** organisational unit.
+
+<img width="1917" height="892" alt="02 – Creating the Organisational Unit (OU) Structure" src="https://github.com/user-attachments/assets/9060cdf1-f49f-41b6-8924-c509094e04fb" />
