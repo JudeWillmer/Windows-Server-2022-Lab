@@ -86,3 +86,47 @@ A structured **Active Directory** environment was created within the **JayTech**
 **Figure 2:** Organisational Unit structure created within the **JayTech** organisational unit.
 
 <img width="1917" height="892" alt="02 – Creating the Organisational Unit (OU) Structure" src="https://github.com/user-attachments/assets/9060cdf1-f49f-41b6-8924-c509094e04fb" />
+
+# Task 3 - Creating a User Account
+
+## Objective
+
+Create a **user account** within the **Active Directory** environment to represent an employee in the fictional **JayTech** organisation.
+
+---
+
+## Implementation
+
+I created a new **Active Directory** user account within the appropriate **Organisational Unit (OU)**. User accounts allow employees to authenticate to the domain, access network resources, and receive permissions based on their assigned security groups.
+
+---
+
+## Navigation
+
+```text
+Active Directory Users and Computers
+→ Expand lab.local
+→ Expand JayTech
+→ Right-click Users
+→ New
+→ User
+→ Enter User Details
+→ Next
+→ Configure Password
+→ Next
+→ Finish
+```
+
+---
+
+## Outcome
+
+A new **Active Directory** user account was successfully created within the **JayTech** environment and is ready to be assigned to security groups and granted access to network resources.
+
+---
+
+## Screenshot
+
+**Figure 3:** Creating a new user account within the **JayTech** Active Directory environment.
+
+<img width="1917" height="888" alt="03 – Creating a User Account" src="https://github.com/user-attachments/assets/35dbc75f-0684-48ae-98d1-b1243b33a658" />
