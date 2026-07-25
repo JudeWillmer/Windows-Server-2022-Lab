@@ -6,17 +6,17 @@ This section covers the core **Active Directory** administration tasks I complet
 
 ---
 
-# Task 1 - Static IP Configuration
+# Task 1 - Configuring a Static IPv4 Address
 
 ## Objective
 
-Configure a **static IPv4 address** for the Windows Server to provide a stable network configuration for **Active Directory** and **DNS** services.
+Configure a **static IPv4 address** on the **Windows Server 2022** Domain Controller to provide a stable network configuration for **Active Directory** and **DNS** services.
 
 ---
 
 ## Implementation
 
-I configured a **static IPv4 address** on the server to ensure it maintained a consistent network identity. This is considered best practice for a **Domain Controller** because clients rely on a fixed IP address to communicate with **Active Directory** and **DNS** services.
+I configured a **static IPv4 address** on the server's **internal network adapter** to ensure the **Domain Controller** maintained a consistent network identity. A static IP address is considered best practice because **Active Directory** and **DNS** services rely on a fixed address so that domain-joined devices can reliably locate and communicate with the server.
 
 ---
 
@@ -26,24 +26,27 @@ I configured a **static IPv4 address** on the server to ensure it maintained a c
 Control Panel
 → Network and Internet
 → Network Connections
-→ Right-click Ethernet
+→ Right-click Ethernet 2
 → Properties
 → Internet Protocol Version 4 (TCP/IPv4)
 → Properties
-→ Configure Static IP Address
+→ Configure Static IPv4 Address
 → OK
 ```
 
+---
+
 ## Outcome
-The server was successfully configured with a static IPv4 address, providing a reliable network foundation for the Active Directory environment.
+
+The **internal network adapter** was successfully configured with a **static IPv4 address**, providing a stable network foundation for **Active Directory**, **DNS**, and future domain-joined client computers.
 
 ---
 
 ## Screenshot
 
-**Figure 1:** Configuring a static IPv4 address for the Windows Server.
+**Figure 1:** Configuring a **static IPv4 address** on the **internal network adapter** for the **Windows Server 2022** Domain Controller.
 
-<img width="1273" height="883" alt="01 – Static IP Configuration" src="https://github.com/user-attachments/assets/c909e1c9-e5c9-49ac-9d34-42d8f5d3df63" />
+<img width="1487" height="913" alt="01 – Static IP Configuration" src="https://github.com/user-attachments/assets/e6d2dc62-d3aa-403f-9ac8-3400e514041b" />
 
 # Task 2 - Creating the Organisational Unit (OU) Structure
 
