@@ -173,3 +173,50 @@ A **Global Security Group** was successfully created within the **JayTech** envi
 **Figure 4:** Creating a Global Security Group within the **JayTech** Active Directory environment.
 
 <img width="1087" height="888" alt="04 – Creating a Security Group" src="https://github.com/user-attachments/assets/7e4fdf91-ef56-4213-99dc-92a12289a18c" />
+
+# Task 5 - Managing Security Group Membership<img width="1138" height="892" alt="05 – Managing Security Group Membership" src="https://github.com/user-attachments/assets/465fdbfe-5dbf-4a98-a603-99579063065e" />
+
+
+## Objective
+
+Assign **Active Directory** user accounts to **security groups** to simplify permission management and prepare the environment for assigning access to network resources.
+
+---
+
+## Implementation
+
+I added users to their appropriate **security groups** based on their department and role within the fictional **JayTech** organisation. Assigning users to security groups allows permissions to be managed centrally, making it easier to grant or revoke access without configuring permissions for individual user accounts.
+
+---
+
+## Navigation
+
+```text
+Active Directory Users and Computers
+→ Expand lab.local
+→ Expand JayTech
+→ Expand Groups
+→ Right-click Security Group
+→ Properties
+→ Members
+→ Add
+→ Enter User Name
+→ Check Names
+→ OK
+→ Apply
+→ OK
+```
+
+---
+
+## Outcome
+
+The selected users were successfully assigned to their respective **security groups**, providing a scalable and efficient way to manage permissions throughout the **Active Directory** environment.
+
+---
+
+## Screenshot
+
+**Figure 5:** Users assigned to the appropriate security groups within the **JayTech** Active Directory environment.
+
+<img width="1138" height="892" alt="05 – Managing Security Group Membership" src="https://github.com/user-attachments/assets/5eada875-1c9a-4ea2-8eb9-352614b3d4f5" />
