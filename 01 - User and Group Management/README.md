@@ -46,7 +46,7 @@ The **internal network adapter** was successfully configured with a **static IPv
 
 **Figure 1:** Configuring a **static IPv4 address** on the **internal network adapter** for the **Windows Server 2022** Domain Controller.
 
-<img width="1487" height="913" alt="01 – Static IP Configuration" src="https://github.com/user-attachments/assets/e6d2dc62-d3aa-403f-9ac8-3400e514041b" />
+<img width="1285" height="871" alt="01 – Static IP Configuration" src="https://github.com/user-attachments/assets/ee4a265c-9e73-4b9a-a21e-8c55af498626" />
 
 # Task 2 - Creating the Organisational Unit (OU) Structure
 
