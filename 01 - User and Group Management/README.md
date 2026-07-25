@@ -4,7 +4,7 @@
 
 This section covers the core Active Directory administration tasks I completed within the Windows Server 2022 lab. I created and managed organisational units, user accounts and security groups while following common Active Directory administration practices.
 
-...
+---
 
 # Static IP Configuration
 
