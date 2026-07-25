@@ -6,17 +6,17 @@ This section covers the core **Group Policy** administration tasks I completed w
 
 ---
 
-# Task 1 - Configuring a Password Policy
+# Task 1 - Configuring Password Policy Settings
 
 ## Objective
 
-Configure a **Password Policy** using **Group Policy** to enforce secure password requirements across the **Active Directory** domain.
+Configure **Password Policy** settings within the **Default Domain Policy** to enforce secure password requirements across the **Active Directory** domain.
 
 ---
 
 ## Implementation
 
-I configured the **Default Domain Policy** within **Group Policy Management** to enforce password requirements for all domain users. Password policies help strengthen account security by defining settings such as password length, complexity, and password age, reducing the risk of weak or compromised credentials.
+I configured the **Password Policy** settings within the **Default Domain Policy** using **Group Policy Management**. These settings define password requirements such as password length, complexity, history, and password age, helping organisations enforce stronger authentication and improve domain security.
 
 ---
 
@@ -43,12 +43,12 @@ Server Manager
 
 ## Outcome
 
-The **Password Policy** was successfully configured within the **Default Domain Policy**, providing a centralised method of enforcing consistent password requirements across the **Active Directory** domain.
+The **Password Policy** settings were successfully configured within the **Default Domain Policy**, providing a centralised method of enforcing consistent password requirements across the **Active Directory** domain.
 
 ---
 
 ## Screenshot
 
-**Figure 1:** Configuring the **Password Policy** within the **Default Domain Policy** using **Group Policy Management**.
+**Figure 1:** Configured **Password Policy** settings within the **Default Domain Policy** using **Group Policy Management**.
 
-![Figure 1](Images/Figure1-Password-Policy.png)
+<img width="1517" height="887" alt="01 – Configuring Password Policy Settings" src="https://github.com/user-attachments/assets/d873a6e5-06fe-4be6-8fa2-b684a98e1c0c" />
