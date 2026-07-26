@@ -38,7 +38,7 @@ Creating and managing Active Directory users, organisational units (OUs), and se
 
 ### 📁 02 - Group Policy
 
-Creating and applying Group Policy Objects (GPOs) to manage user and computer settings across the domain.
+Configuring and managing Group Policy settings to centrally manage user and computer configurations across the Active Directory domain.
 
 ### 📁 03 - Shared Folders
 
