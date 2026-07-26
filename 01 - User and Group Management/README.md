@@ -177,8 +177,7 @@ A **Global Security Group** was successfully created within the **JayTech** envi
 
 <img width="1087" height="888" alt="04 – Creating a Security Group" src="https://github.com/user-attachments/assets/7e4fdf91-ef56-4213-99dc-92a12289a18c" />
 
-# Task 5 - Managing Security Group Membership<img width="1138" height="892" alt="05 – Managing Security Group Membership" src="https://github.com/user-attachments/assets/465fdbfe-5dbf-4a98-a603-99579063065e" />
-
+# Task 5 - Managing Security Group Membership
 
 ## Objective
 
