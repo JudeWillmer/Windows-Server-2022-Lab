@@ -46,7 +46,7 @@ Creating shared folders, configuring NTFS and Share permissions, and managing ac
 
 ### 📁 04 - Domain Join
 
-Joining Windows 10 client computers to the Active Directory domain and verifying successful authentication using domain user accounts.
+Joining Windows client computers to the Active Directory domain, verifying successful authentication using domain user accounts, and accessing shared network resources.
 
 ### 📁 05 - Troubleshooting
 
