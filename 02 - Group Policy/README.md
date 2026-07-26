@@ -146,3 +146,39 @@ The **Desktop Wallpaper** policy was successfully configured within the **Defaul
 **Figure 3:** Configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**.
 
 <img width="1705" height="892" alt="03 – Configuring a Desktop Wallpaper Policy" src="https://github.com/user-attachments/assets/e3568077-6bb0-494b-9963-ec05a47f459f" />
+
+# Task 4 - Applying and Verifying Group Policy
+
+## Objective
+
+Apply the latest **Group Policy** settings and verify that the configured policies have been successfully processed by **Windows Server 2022**.
+
+---
+
+## Implementation
+
+I used the **Command Prompt** to manually refresh **Group Policy** settings after configuring the policies within **Group Policy Management**. I then verified that the policies had been successfully applied by reviewing the **Resultant Set of Policy (RSoP)** information using the **gpresult** command.
+
+---
+
+## Commands
+
+```cmd
+gpupdate /force
+
+gpresult /r
+```
+
+---
+
+## Outcome
+
+The **Group Policy** settings were successfully refreshed and verified. The **gpresult** output confirmed that the expected **Group Policy Objects (GPOs)** had been applied to the server.
+
+---
+
+## Screenshot
+
+**Figure 4:** Applying and verifying **Group Policy** settings using **gpupdate** and **gpresult**.
+
+<img width="1356" height="911" alt="04 – Applying and Verifying Group Policy" src="https://github.com/user-attachments/assets/7fcb4244-4cfc-45ab-804e-2829ce23c412" />
