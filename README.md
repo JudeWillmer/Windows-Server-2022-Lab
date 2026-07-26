@@ -42,7 +42,7 @@ Configuring and managing Group Policy settings to centrally manage user and comp
 
 ### 📁 03 - Shared Folders
 
-Creating shared folders, configuring NTFS and Share permissions, and managing access using Active Directory security groups.
+Creating SMB shares, configuring NTFS and Share permissions, and managing access using Active Directory security groups.
 
 ### 📁 04 - Domain Join
 
