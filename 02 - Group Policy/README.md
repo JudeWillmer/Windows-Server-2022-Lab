@@ -99,3 +99,50 @@ The **Account Lockout Policy** settings were successfully configured within the 
 **Figure 2:** Configured **Account Lockout Policy** settings within the **Default Domain Policy** using **Group Policy Management**.
 
 <img width="1342" height="888" alt="02 – Configuring Account Lockout Policy Settings" src="https://github.com/user-attachments/assets/1b1890ad-a2cf-4b2e-b98e-d585a107b92f" />
+
+# Task 3 - Configuring a Desktop Wallpaper Policy
+
+## Objective
+
+Configure a **Group Policy** setting to apply a standard desktop wallpaper for domain users, demonstrating centralised desktop configuration using **Group Policy Management**.
+
+---
+
+## Implementation
+
+I configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**. The policy specifies a centrally managed wallpaper stored on the server and applies it automatically to users when the policy is updated, helping maintain a consistent desktop appearance across the organisation.
+
+---
+
+## Navigation
+
+```text
+Server Manager
+→ Tools
+→ Group Policy Management
+→ Forest: lab.local
+→ Domains
+→ lab.local
+→ Default Domain Policy
+→ Edit
+→ User Configuration
+→ Policies
+→ Administrative Templates
+→ Desktop
+→ Desktop
+→ Desktop Wallpaper
+```
+
+---
+
+## Outcome
+
+The **Desktop Wallpaper** policy was successfully configured within the **Default Domain Policy**, allowing a consistent desktop wallpaper to be applied to domain users through **Group Policy**.
+
+---
+
+## Screenshot
+
+**Figure 3:** Configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**.
+
+<img width="1705" height="892" alt="03 – Configuring a Desktop Wallpaper Policy" src="https://github.com/user-attachments/assets/e3568077-6bb0-494b-9963-ec05a47f459f" />
