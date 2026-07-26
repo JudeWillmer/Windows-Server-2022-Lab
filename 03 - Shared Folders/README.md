@@ -52,3 +52,45 @@ An **SMB Share** was successfully created for the **JayTech** directory, providi
 **Figure 1:** Creating the **JayTech** folder during the **SMB Share** creation wizard.
 
 <img width="1068" height="892" alt="01 – Creating an SMB Share" src="https://github.com/user-attachments/assets/99140993-7142-47c7-aa2f-d1220681660f" />
+
+# Task 2 - Creating Department Folders
+
+## Objective
+
+Create a structured folder hierarchy within the **JayTech** shared directory to organise departmental resources.
+
+---
+
+## Implementation
+
+Using **File Explorer**, I created separate folders for the **HR**, **IT**, and **Sales** departments within the **JayTech** shared directory. These folders will later be configured with appropriate permissions using **Active Directory Security Groups**.
+
+---
+
+## Navigation
+
+```text
+File Explorer
+→ Local Disk (C:)
+→ JayTech
+→ Right-click
+→ New
+→ Folder
+→ Create "HR"
+→ Create "IT"
+→ Create "Sales"
+```
+
+---
+
+## Outcome
+
+Departmental folders were successfully created within the **JayTech** shared directory, providing a structured location for departmental resources that can be secured with appropriate permissions.
+
+---
+
+## Screenshot
+
+**Figure 2:** Department folders created within the **JayTech** shared directory.
+
+<img width="1225" height="915" alt="02 – Creating Department Folders" src="https://github.com/user-attachments/assets/57ada887-45b2-4408-aa53-156cd9f32352" />
