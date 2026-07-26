@@ -94,3 +94,51 @@ Departmental folders were successfully created within the **JayTech** shared dir
 **Figure 2:** Department folders created within the **JayTech** shared directory.
 
 <img width="1225" height="915" alt="02 – Creating Department Folders" src="https://github.com/user-attachments/assets/57ada887-45b2-4408-aa53-156cd9f32352" />
+
+# Task 3 - Configuring NTFS Permissions
+
+## Objective
+
+Configure **NTFS Permissions** to restrict access to the **Sales** department folder, ensuring only authorised **Active Directory Security Groups** can access and modify its contents.
+
+---
+
+## Implementation
+
+Using the **Security** properties for the **Sales** folder, I disabled permission inheritance and converted the inherited permissions into explicit permissions. I then removed unnecessary entries and assigned the **Sales_Users** security group with **Modify** permissions, while retaining the default administrative accounts required for system management.
+
+---
+
+## Navigation
+
+```text
+File Explorer
+→ Local Disk (C:)
+→ JayTech
+→ Sales
+→ Right-click
+→ Properties
+→ Security
+→ Advanced
+→ Disable inheritance
+→ Convert inherited permissions into explicit permissions
+→ Remove unnecessary entries
+→ Add "Sales_Users"
+→ Allow "Modify"
+→ Apply
+→ OK
+```
+
+---
+
+## Outcome
+
+The **Sales** folder was secured using **NTFS Permissions**, ensuring that only members of the **Sales_Users** security group can modify the folder and its contents while preserving administrative access.
+
+---
+
+## Screenshot
+
+**Figure 3:** Configuring **NTFS Permissions** for the **Sales** department folder.
+
+<img width="1493" height="916" alt="03 – Configuring NTFS Permissions" src="https://github.com/user-attachments/assets/9a61aee0-d337-46bd-87be-8e1128386e34" />
