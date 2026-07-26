@@ -142,3 +142,47 @@ The **Sales** folder was secured using **NTFS Permissions**, ensuring that only 
 **Figure 3:** Configuring **NTFS Permissions** for the **Sales** department folder.
 
 <img width="1493" height="916" alt="03 – Configuring NTFS Permissions" src="https://github.com/user-attachments/assets/9a61aee0-d337-46bd-87be-8e1128386e34" />
+
+# Task 4 - Configuring Share Permissions
+
+## Objective
+
+Configure **Share Permissions** for the **Sales** shared folder to control how authorised users can access shared resources over the network.
+
+---
+
+## Implementation
+
+Using the **Sharing** properties for the **Sales** folder, I configured **Share Permissions** by adding the **Sales_Users** security group and assigning **Read/Write** access. This allows authorised users to access and modify shared files over the network while maintaining administrative access.
+
+---
+
+## Navigation
+
+```text
+File Explorer
+→ Local Disk (C:)
+→ JayTech
+→ Sales
+→ Right-click
+→ Properties
+→ Sharing
+→ Share
+→ Add "Sales_Users"
+→ Set Permission Level to "Read/Write"
+→ Share
+```
+
+---
+
+## Outcome
+
+The **Sales** shared folder was configured with **Share Permissions**, allowing members of the **Sales_Users** security group to read and modify files when accessing the folder over the network.
+
+---
+
+## Screenshot
+
+**Figure 4:** Configuring **Share Permissions** for the **Sales** shared folder.
+
+<img width="1367" height="916" alt="04 – Configuring Share Permissions" src="https://github.com/user-attachments/assets/e8b51b1c-2a0c-4b57-86b9-26d59eb8f862" />
