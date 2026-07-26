@@ -51,4 +51,4 @@ An **SMB Share** was successfully created for the **JayTech** directory, providi
 
 **Figure 1:** Creating the **JayTech** folder during the **SMB Share** creation wizard.
 
-<img width="1068" height="913" alt="01 – Creating an SMB Share" src="https://github.com/user-attachments/assets/541e0639-d200-4123-aa78-b8b343be8793" />
+<img width="1068" height="892" alt="01 – Creating an SMB Share" src="https://github.com/user-attachments/assets/99140993-7142-47c7-aa2f-d1220681660f" />
