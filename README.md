@@ -46,7 +46,7 @@ Creating SMB shares, configuring NTFS and Share permissions, and managing access
 
 ### 📁 04 - Domain Join
 
-Joining a Windows client to the Active Directory domain, verifying domain authentication using a domain user account, and configuring mapped network drives for secure access to shared resources.
+Joining a Windows client to the Active Directory domain, verifying domain authentication using a domain user account, and configuring mapped network drives.
 
 ### 📁 05 - Troubleshooting
 
