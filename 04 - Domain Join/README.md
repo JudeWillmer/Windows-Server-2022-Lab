@@ -64,7 +64,7 @@ Sign in to the Windows 10 client using a domain user account and verify that the
 ## Implementation
 
 1. Sign out of the local Windows account.
-2. Sign in using the **LAB\MarioKatoch** domain account.
+2. Sign in using the **LAB\katoch.m** domain account.
 3. Open **Command Prompt**.
 4. Run the following command:
 
@@ -84,7 +84,7 @@ Start
 → Sign out
 
 Sign in
-→ LAB\MarioKatoch
+→ LAB\katoch.m
 
 Start
 → Command Prompt
@@ -95,7 +95,7 @@ Start
 
 ## Outcome
 
-The Windows 10 client successfully authenticated using the **LAB\MarioKatoch** domain account. The `net accounts` command confirmed that the Group Policy password and account lockout settings configured earlier in the lab were successfully applied.
+The Windows 10 client successfully authenticated using the **LAB\katoch.m** domain account. The `net accounts` command confirmed that the Group Policy password and account lockout settings configured earlier in the lab were successfully applied.
 
 ---
 
@@ -103,4 +103,4 @@ The Windows 10 client successfully authenticated using the **LAB\MarioKatoch** d
 
 **Figure 2:** Output of the `net accounts` command confirming that the Group Policy password and account lockout settings were successfully applied to the Windows 10 client.
 
-<img width="1568" height="890" alt="02 – Signing in with a Domain User Account" src="https://github.com/user-attachments/assets/6bc431fa-af8e-447c-97a1-aa70e5e88606" />
+<img width="1568" height="890" alt="02 – Signing in with a Domain User Account" src="https://github.com/user-attachments/assets/62c17df4-bc39-477e-8216-c83262048fbb" />
