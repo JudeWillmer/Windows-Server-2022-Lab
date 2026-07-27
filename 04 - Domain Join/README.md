@@ -104,3 +104,81 @@ The Windows 10 client successfully authenticated using the **LAB\katoch.m** doma
 **Figure 2:** Output of the `net accounts` command confirming that the Group Policy password and account lockout settings were successfully applied to the Windows 10 client.
 
 <img width="1568" height="890" alt="02 – Signing in with a Domain User Account" src="https://github.com/user-attachments/assets/62c17df4-bc39-477e-8216-c83262048fbb" />
+
+# Task 3 - Configuring and Verifying a Mapped Network Drive
+
+## Objective
+
+Configure a mapped network drive for a domain user through Active Directory and verify that the Sales department shared folder is automatically available after signing in.
+
+---
+
+## Implementation
+
+1. Open **Active Directory Users and Computers**.
+2. Navigate to **JayTech → Sales**.
+3. Right-click **Mario Katoch** and select **Properties**.
+4. Open the **Profile** tab.
+5. Under **Home folder**, select **Connect** and choose drive letter **Z:**.
+6. Open **File Explorer** and navigate to the **Sales** shared folder.
+7. Right-click the **Sales** folder and select **Properties**.
+8. Open the **Sharing** tab and copy the **Network Path**.
+9. Return to the **Profile** tab for **Mario Katoch**.
+10. Paste the network path into the **To:** field.
+11. Select **Apply**, then **OK** to save the configuration.
+12. Sign in to the Windows 10 client using the **LAB\katoch.m** domain account.
+13. Open **This PC** and verify that the **Sales (Z:)** mapped network drive is automatically available.
+14. Open the mapped drive to confirm that the Sales department shared folder is accessible.
+
+---
+
+## Navigation
+
+```text
+Active Directory Users and Computers
+→ JayTech
+→ Sales
+→ Mario Katoch
+→ Right-click
+→ Properties
+→ Profile
+→ Connect
+→ Z:
+
+File Explorer
+→ This PC
+→ Local Disk (C:)
+→ JayTech
+→ Sales
+→ Right-click
+→ Properties
+→ Sharing
+→ Copy Network Path
+
+Active Directory Users and Computers
+→ Paste Network Path
+→ Apply
+→ OK
+
+Windows 10
+→ Sign in
+→ LAB\katoch.m
+
+File Explorer
+→ This PC
+→ Sales (Z:)
+```
+
+---
+
+## Outcome
+
+The Sales department shared folder was successfully assigned as a mapped **Z:** drive for the **LAB\katoch.m** domain account. After signing in, the Windows 10 client automatically mapped the network drive and successfully accessed the Sales department shared folder.
+
+---
+
+## Screenshot
+
+**Figure 3:** The **Sales (Z:)** mapped network drive successfully connected and accessible from the Windows 10 client.
+
+<img width="1918" height="915" alt="03 – Configuring and Verifying a Mapped Network Drive" src="https://github.com/user-attachments/assets/47e355bf-dbd0-454e-b19d-13ddf0c7038d" />
