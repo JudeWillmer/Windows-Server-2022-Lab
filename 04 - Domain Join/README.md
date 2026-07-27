@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section covers the core **Active Directory** domain administration tasks completed within the **Windows Server 2022** lab. A **Windows 10** client was joined to the **lab.local** domain, authentication was verified using a **domain user account**, and a **mapped network drive** was configured and accessed through **Active Directory**. These tasks demonstrate how **domain-joined computers** provide **centralised authentication** and **secure access** to shared network resources within a **Windows Server** environment.
+This section covers the core **Active Directory** domain administration tasks I completed within the **Windows Server 2022** lab. I joined a **Windows 10** client to the **lab.local** domain, verified authentication using a **domain user account**, and configured a mapped network drive through **Active Directory**. These tasks demonstrate how **domain-joined computers** provide **centralised authentication** and **secure access** to shared network resources within a **Windows Server** environment.
 
 ---
 
@@ -16,14 +16,7 @@ Join a Windows 10 client to the **lab.local** Active Directory domain by renamin
 
 ## Implementation
 
-1. Open **This PC** and select **Properties**.
-2. Select **Rename this PC (Advanced)**.
-3. Rename the computer to **CLIENT01** and restart the device.
-4. Open **System Properties**, select **Change**, then choose **Domain**.
-5. Enter **lab.local** as the domain name.
-6. Authenticate using a Domain Administrator account when prompted.
-7. Restart the computer to complete the domain join.
-8. Open **Active Directory Users and Computers** and verify that **CLIENT01** appears in the **Computers** container.
+I renamed the Windows 10 client to **CLIENT01** before joining it to the **lab.local** Active Directory domain using a **Domain Administrator** account. After restarting the computer to complete the domain join, I verified that the **CLIENT01** computer account had been successfully created within the **Computers** container in **Active Directory Users and Computers**.
 
 ---
 
