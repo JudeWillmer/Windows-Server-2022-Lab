@@ -56,16 +56,7 @@ Sign in to the Windows 10 client using a domain user account and verify that the
 
 ## Implementation
 
-1. Sign out of the local Windows account.
-2. Sign in using the **LAB\katoch.m** domain account.
-3. Open **Command Prompt**.
-4. Run the following command:
-
-```cmd
-net accounts
-```
-
-5. Review the output to verify that the configured password and account lockout policies have been applied.
+I signed out of the local Windows account and signed in using the **LAB\katoch.m** domain account to verify that domain authentication was functioning correctly. After successfully signing in, I opened **Command Prompt** and ran the `net accounts` command to confirm that the configured **Password Policy** and **Account Lockout Policy** settings from the **Default Domain Policy** had been applied to the domain user account.
 
 ---
 
@@ -108,20 +99,7 @@ Configure a mapped network drive for a domain user through Active Directory and 
 
 ## Implementation
 
-1. Open **Active Directory Users and Computers**.
-2. Navigate to **JayTech → Sales**.
-3. Right-click **Mario Katoch** and select **Properties**.
-4. Open the **Profile** tab.
-5. Under **Home folder**, select **Connect** and choose drive letter **Z:**.
-6. Open **File Explorer** and navigate to the **Sales** shared folder.
-7. Right-click the **Sales** folder and select **Properties**.
-8. Open the **Sharing** tab and copy the **Network Path**.
-9. Return to the **Profile** tab for **Mario Katoch**.
-10. Paste the network path into the **To:** field.
-11. Select **Apply**, then **OK** to save the configuration.
-12. Sign in to the Windows 10 client using the **LAB\katoch.m** domain account.
-13. Open **This PC** and verify that the **Sales (Z:)** mapped network drive is automatically available.
-14. Open the mapped drive to confirm that the Sales department shared folder is accessible.
+I configured a **Home Folder** for the **Mario Katoch** domain user within **Active Directory Users and Computers** by assigning the **Z:** drive letter and linking it to the **Sales** shared folder using its network path. After applying the configuration, I signed in to the Windows 10 client using the **LAB\katoch.m** domain account and verified that the mapped **Sales (Z:)** network drive was automatically available and provided access to the shared folder.
 
 ---
 
