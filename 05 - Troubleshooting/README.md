@@ -44,6 +44,14 @@ The locked **Active Directory** user account was successfully unlocked, restorin
 
 ---
 
+## Scenario
+
+A user contacts the IT Help Desk after being unable to sign in to their **domain account**. The account was automatically locked after multiple incorrect password attempts triggered the configured **Account Lockout Policy**. I investigated the issue by opening **Active Directory Users and Computers**, locating the affected user account, and confirming that the account was locked. I restored access by unlocking the account and then verified that the user could successfully authenticate to the **lab.local** domain using the correct credentials.
+
+Account lockouts are one of the most common support requests within **Active Directory** environments. Understanding how to identify, resolve, and verify these issues enables IT Support professionals to restore user access quickly while maintaining the security controls enforced through **Group Policy**.
+
+---
+
 ## Screenshot
 
 **Figure 1:** Domain user account locked after multiple incorrect password attempts.
