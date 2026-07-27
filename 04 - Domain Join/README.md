@@ -10,7 +10,7 @@ This section covers the core **Active Directory** domain administration tasks I 
 
 ## Objective
 
-Join a Windows 10 client to the **lab.local** Active Directory domain by renaming the computer, joining it to the domain, and verifying that the computer account is successfully created in Active Directory.
+Join a **Windows 10** client to the **lab.local** **Active Directory** domain by renaming the computer, joining it to the domain, and verifying that the computer account is successfully created in **Active Directory**.
 
 ---
 
@@ -50,7 +50,7 @@ The Windows 10 client was successfully joined to the **lab.local** Active Direct
 
 ## Objective
 
-Sign in to the Windows 10 client using a domain user account and verify that the configured Group Policy password and account lockout policies have been successfully applied.
+Sign in to the **Windows 10** client using a **domain user account** and verify that the configured **Group Policy** **Password Policy** and **Account Lockout Policy** settings have been successfully applied.
 
 ---
 
@@ -93,7 +93,7 @@ The Windows 10 client successfully authenticated using the **LAB\katoch.m** doma
 
 ## Objective
 
-Configure a mapped network drive for a domain user through Active Directory and verify that the Sales department shared folder is automatically available after signing in.
+Configure a mapped **network drive** for a **domain user** through **Active Directory** and verify that the **Sales** department shared folder is automatically available after signing in.
 
 ---
 
