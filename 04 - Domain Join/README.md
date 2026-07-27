@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section covers the core Active Directory domain administration tasks completed within the Windows Server 2022 lab. A Windows 10 client was joined to the **lab.local** domain, authentication was verified using a domain user account, and a department network drive was configured and accessed through Active Directory. These tasks demonstrate how domain-joined computers provide centralised authentication and secure access to shared network resources within a Windows Server environment.
+This section covers the core **Active Directory** domain administration tasks completed within the **Windows Server 2022** lab. A **Windows 10** client was joined to the **lab.local** domain, authentication was verified using a **domain user account**, and a **mapped network drive** was configured and accessed through **Active Directory**. These tasks demonstrate how **domain-joined computers** provide **centralised authentication** and **secure access** to shared network resources within a **Windows Server** environment.
 
 ---
 
