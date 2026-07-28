@@ -146,7 +146,7 @@ Restore access to an **Active Directory** user account by extending the account 
 
 ## Implementation
 
-I configured the **Mario Katoch** domain user account to expire in **Active Directory Users and Computers** to simulate a common account access issue. I then extended the account expiry by selecting **Never** from the **Account** tab within the user properties. After applying the changes, I signed in using the **LAB\katoch.m** domain account and verified successful authentication using the `whoami` command.
+I configured the **Mario Katoch** domain user account to expire in **Active Directory Users and Computers** to simulate a common account access issue. I then extended the account expiry date from the **Account** tab within the user properties before applying the changes. After updating the account, I signed in using the **LAB\katoch.m** domain account and verified successful authentication using the `whoami` command.
 
 ---
 
@@ -162,7 +162,7 @@ Server Manager
 → Properties
 → Account
 → Account expires
-→ Never
+→ Select a new expiry date
 → Apply
 → OK
 ```
@@ -177,7 +177,7 @@ The expired **Active Directory** user account was successfully reactivated by ex
 
 ## Scenario
 
-A user contacts the IT Help Desk after being unable to sign in to their **domain account** because the account has expired. I investigated the issue using **Active Directory Users and Computers**, confirmed that the account had reached its configured expiry date, and restored access by extending the account expiry. After applying the changes, I verified that the user could successfully authenticate to the **lab.local** domain using the correct credentials.
+A user contacts the IT Help Desk after being unable to sign in to their **domain account** because the account has expired. I investigated the issue using **Active Directory Users and Computers**, confirmed that the account had reached its configured expiry date, and restored access by extending the account expiry date. After applying the changes, I verified that the user could successfully authenticate to the **lab.local** domain using the correct credentials.
 
 Expired user accounts are commonly encountered within **Active Directory** environments where temporary staff, contractors, or time-limited accounts are used. Understanding how to identify expired accounts and safely restore user access is an important responsibility for **IT Support** and **Help Desk** professionals while maintaining effective account lifecycle management.
 
