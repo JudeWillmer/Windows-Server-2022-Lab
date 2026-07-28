@@ -145,7 +145,7 @@ The **Desktop Wallpaper** policy was successfully configured within the **Defaul
 
 **Figure 3:** Configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**.
 
-<img width="1705" height="892" alt="03 – Configuring a Desktop Wallpaper Policy" src="https://github.com/user-attachments/assets/e3568077-6bb0-494b-9963-ec05a47f459f" />
+<img width="1721" height="892" alt="03 – Configuring a Desktop Wallpaper Policy" src="https://github.com/user-attachments/assets/9ae62bd2-3167-43d7-ad67-40f8f5f36f67" />
 
 # Task 4 - Applying and Verifying Group Policy
 
