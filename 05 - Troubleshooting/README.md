@@ -196,3 +196,77 @@ Expired user accounts are commonly encountered within **Active Directory** envir
 **Figure 3:** Successful domain authentication verified using the `whoami` command after extending the account expiry date.
 
 <img width="1231" height="911" alt="11 – Extending an Expired User Account" src="https://github.com/user-attachments/assets/c6f3e5ca-7995-4db5-b92f-b7bdde3da423" />
+
+# Task 4 - Troubleshooting Group Policy Application
+
+## Objective
+
+Troubleshoot a **Group Policy** setting that is not being applied to a domain user and verify successful policy application using built-in Windows command-line tools.
+
+---
+
+## Implementation
+
+I investigated why the configured desktop wallpaper was not being applied to a domain user after signing in to the **Windows 10** client. I refreshed **Group Policy** using the `gpupdate /force` command and verified the applied **Group Policy Objects** using `gpresult /r`, which confirmed that the expected user policy had not been applied. I then reviewed the **Desktop Wallpaper** policy within the **Default Domain Policy**, corrected the configuration by using a **network-accessible shared folder (UNC path)** for the wallpaper, and applied the changes. After refreshing **Group Policy** and signing back into the client, I verified that the desktop wallpaper was successfully applied.
+
+---
+
+## Navigation
+
+```text
+Windows 10 Client
+→ Command Prompt
+→ gpupdate /force
+→ gpresult /r
+
+Server Manager
+→ Tools
+→ Group Policy Management
+→ Forest: lab.local
+→ Domains
+→ lab.local
+→ Default Domain Policy
+→ Edit
+→ User Configuration
+→ Policies
+→ Administrative Templates
+→ Desktop
+→ Desktop
+→ Desktop Wallpaper
+```
+
+---
+
+## Outcome
+
+The **Desktop Wallpaper Group Policy** was successfully applied after correcting the policy configuration to reference a network-accessible shared folder. Successful policy deployment was verified by refreshing **Group Policy** and confirming that the standard company desktop wallpaper was displayed on the domain client.
+
+---
+
+## Scenario
+
+A user contacts the IT Help Desk because the standard **JayTech** desktop wallpaper is not displayed after signing in to a domain-joined workstation. I investigated the issue by refreshing **Group Policy** on the client and reviewing the applied **Group Policy Objects**, confirming that the expected user policy had not been applied. I then reviewed the **Desktop Wallpaper** policy within **Group Policy Management**, corrected the wallpaper path to reference a network-accessible shared folder on the domain controller, refreshed **Group Policy**, and confirmed that the company wallpaper was successfully applied. This demonstrates a common **Group Policy** troubleshooting process used to investigate and resolve policy deployment issues within an **Active Directory** environment.
+
+---
+
+## Screenshot
+
+**Figure 1:** Standard Windows desktop displayed because the Desktop Wallpaper Group Policy has not been applied.
+
+<img width="1918" height="911" alt="12 – Troubleshooting Group Policy Application" src="https://github.com/user-attachments/assets/bb1f8fcf-8e89-4a0b-98cc-db27fe4e440c" />
+
+**Figure 2:** Refreshing Group Policy on the domain client using the `gpupdate /force` command.
+
+<img width="1423" height="912" alt="13 – Troubleshooting Group Policy Application" src="https://github.com/user-attachments/assets/1aef54f6-d9cc-4f67-a4d1-8d70acc4de9b" />
+
+**Figure 3:** Verifying that the expected user Group Policy had not been applied using the `gpresult /r` command.
+
+<img width="1440" height="912" alt="14 – Troubleshooting Group Policy Application" src="https://github.com/user-attachments/assets/2a9ab24b-e6e5-45f7-bd36-925d3e3ce8b6" />
+
+**Figure 4:** Correcting the Desktop Wallpaper policy within the **Default Domain Policy** by configuring a network-accessible wallpaper location.
+
+<img width="1721" height="892" alt="15 – Troubleshooting Group Policy Application" src="https://github.com/user-attachments/assets/0e42551a-1ae1-462f-8cb1-5b94882db6a5" />
+
+**Figure 5:** Desktop Wallpaper Group Policy successfully applied after correcting the Group Policy configuration and refreshing Group Policy on the domain client.
+
+<img width="1917" height="913" alt="16 – Troubleshooting Group Policy Application" src="https://github.com/user-attachments/assets/75dd680a-2721-4113-ad5c-fcbda769d8fb" />
