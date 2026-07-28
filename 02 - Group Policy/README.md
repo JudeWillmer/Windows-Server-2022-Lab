@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section covers the core **Group Policy** administration tasks I completed within the **Windows Server 2022** lab. I configured and managed **Group Policy** settings within the **Default Domain Policy** to enforce security and user configuration settings across the **Active Directory** domain. These tasks demonstrate how **Group Policy** enables centralised administration by allowing administrators to apply consistent configurations and security settings throughout a **Windows Server** environment.
+This section covers the core **Group Policy** administration tasks I completed within the **Windows Server 2022** lab. I configured and managed **Group Policy** settings within the **Default Domain Policy** to enforce security and user configuration settings across the **Active Directory** domain. These tasks demonstrate how **Group Policy** enables centralised administration by allowing administrators to apply consistent security settings, user configurations, and centrally managed resources throughout a **Windows Server** environment.
 
 ---
 
