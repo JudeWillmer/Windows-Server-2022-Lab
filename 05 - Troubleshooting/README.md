@@ -16,7 +16,7 @@ Simulate an **Active Directory** account lockout by entering an incorrect passwo
 
 ## Implementation
 
-I intentionally entered an incorrect password multiple times while signing in as **LAB\katoch.m** until the configured **Account Lockout Policy** locked the account. I then opened **Active Directory Users and Computers**, located the **Mario Katoch** user account, and unlocked it from the **Account** tab within the user properties. Finally, I verified that the user could successfully sign in to the **lab.local** domain using the correct password.
+I entered an incorrect password multiple times while signing in as **LAB\katoch.m**, causing the configured **Account Lockout Policy** to lock the domain user account. I then opened **Active Directory Users and Computers**, located the **Mario Katoch** user account, and unlocked it from the **Account** tab within the user properties. After applying the changes, I signed in using the correct password and verified the successful domain authentication using the `whoami` command.
 
 ---
 
@@ -40,7 +40,7 @@ Server Manager
 
 ## Outcome
 
-The locked **Active Directory** user account was successfully unlocked, restoring access to the **lab.local** domain. This demonstrates a common **Help Desk** troubleshooting procedure for resolving user account lockouts.
+The locked **Active Directory** user account was successfully unlocked, restoring access to the **lab.local** domain. Successful authentication was verified by signing in with the **LAB\katoch.m** domain account and confirming the logged-in user using the `whoami` command.
 
 ---
 
@@ -56,12 +56,12 @@ Account lockouts are one of the most common support requests within **Active Dir
 
 **Figure 1:** Domain user account locked after multiple incorrect password attempts.
 
-![Figure 1](Images/Task1-Figure1.png)
+<img width="1917" height="952" alt="01 – Unlocking a Locked Domain Account" src="https://github.com/user-attachments/assets/e21d9148-69ef-476a-8797-11c9a8adde2f" />
 
-**Figure 2:** Unlocking the domain user account in **Active Directory Users and Computers**.
+**Figure 2:** Unlocking the locked domain user account in **Active Directory Users and Computers**.
 
-![Figure 2](Images/Task1-Figure2.png)
+<img width="1420" height="888" alt="02 – Unlocking a Locked Domain Account" src="https://github.com/user-attachments/assets/ee252108-8d3d-4f02-8e63-b1c0d44dcf08" />
 
-**Figure 3:** Successful domain sign-in after unlocking the user account.
+**Figure 3:** Successful domain sign-in verified using the `whoami` command.
 
-![Figure 3](Images/Task1-Figure3.png)
+<img width="1231" height="911" alt="03 – Unlocking a Locked Domain Account" src="https://github.com/user-attachments/assets/3dbb9c8d-f800-4ca4-8411-2b37c5dee75a" />
