@@ -110,7 +110,7 @@ Configure a **Group Policy** setting to apply a standard desktop wallpaper for d
 
 ## Implementation
 
-I configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**. The policy specifies a centrally managed wallpaper stored on the server and applies it automatically to users when the policy is updated, helping maintain a consistent desktop appearance across the organisation.
+I configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**. The policy specifies a centrally managed wallpaper stored in a **network-accessible shared folder** on the server using a **UNC path**, allowing the desktop wallpaper to be applied automatically to domain users when Group Policy is refreshed.
 
 ---
 
@@ -137,13 +137,13 @@ Server Manager
 
 ## Outcome
 
-The **Desktop Wallpaper** policy was successfully configured within the **Default Domain Policy**, allowing a consistent desktop wallpaper to be applied to domain users through **Group Policy**.
+The **Desktop Wallpaper** policy was successfully configured within the **Default Domain Policy**, enabling a consistent desktop wallpaper to be applied to domain users from a centrally managed shared location through **Group Policy**.
 
 ---
 
 ## Screenshot
 
-**Figure 3:** Configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using **Group Policy Management**.
+**Figure 3:** Configured the **Desktop Wallpaper** policy within the **Default Domain Policy** using a network-accessible shared folder.
 
 <img width="1721" height="892" alt="03 – Configuring a Desktop Wallpaper Policy" src="https://github.com/user-attachments/assets/9ae62bd2-3167-43d7-ad67-40f8f5f36f67" />
 
