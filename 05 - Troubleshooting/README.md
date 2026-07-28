@@ -135,3 +135,64 @@ Disabled user accounts are commonly encountered within **Active Directory** envi
 **Figure 5:** Successful domain authentication verified using the `whoami` command after creating a compliant password.
 
 <img width="1231" height="911" alt="08 – Re-enabling a Disabled Domain User Account and Resetting the Password" src="https://github.com/user-attachments/assets/d3841f22-4945-4640-a554-21591948a3c4" />
+
+# Task 3 - Extending an Expired User Account
+
+## Objective
+
+Restore access to an **Active Directory** user account by extending the account expiry date and verifying successful authentication to the **lab.local** domain.
+
+---
+
+## Implementation
+
+I configured the **Mario Katoch** domain user account to expire in **Active Directory Users and Computers** to simulate a common account access issue. I then extended the account expiry by selecting **Never** from the **Account** tab within the user properties. After applying the changes, I signed in using the **LAB\katoch.m** domain account and verified successful authentication using the `whoami` command.
+
+---
+
+## Navigation
+
+```text
+Server Manager
+→ Tools
+→ Active Directory Users and Computers
+→ lab.local
+→ Users
+→ Mario Katoch
+→ Properties
+→ Account
+→ Account expires
+→ Never
+→ Apply
+→ OK
+```
+
+---
+
+## Outcome
+
+The expired **Active Directory** user account was successfully reactivated by extending the account expiry date. Successful authentication to the **lab.local** domain was verified using the `whoami` command.
+
+---
+
+## Scenario
+
+A user contacts the IT Help Desk after being unable to sign in to their **domain account** because the account has expired. I investigated the issue using **Active Directory Users and Computers**, confirmed that the account had reached its configured expiry date, and restored access by extending the account expiry. After applying the changes, I verified that the user could successfully authenticate to the **lab.local** domain using the correct credentials.
+
+Expired user accounts are commonly encountered within **Active Directory** environments where temporary staff, contractors, or time-limited accounts are used. Understanding how to identify expired accounts and safely restore user access is an important responsibility for **IT Support** and **Help Desk** professionals while maintaining effective account lifecycle management.
+
+---
+
+## Screenshot
+
+**Figure 1:** Expired domain user account preventing successful authentication.
+
+<img width="1918" height="952" alt="09 – Extending an Expired User Account" src="https://github.com/user-attachments/assets/7342078f-6083-41a0-bd3b-0a1664db9f5b" />
+
+**Figure 2:** Extending the account expiry date in **Active Directory Users and Computers**.
+
+<img width="1643" height="892" alt="10 – Extending an Expired User Account" src="https://github.com/user-attachments/assets/7ba0bf3d-834f-4ece-8acd-0916401786d0" />
+
+**Figure 3:** Successful domain authentication verified using the `whoami` command after extending the account expiry date.
+
+<img width="1231" height="911" alt="11 – Extending an Expired User Account" src="https://github.com/user-attachments/assets/c6f3e5ca-7995-4db5-b92f-b7bdde3da423" />
