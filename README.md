@@ -4,7 +4,9 @@
 
 This repository documents my Windows Server 2022 lab, where I practised common tasks performed by an IT Support Technician using a fictional company called **JayTech**.
 
-Throughout this project, I configured Active Directory, managed users and groups, applied Group Policies, created shared folders, joined Windows 10 clients to the domain, and worked through common troubleshooting scenarios. This project gave me hands-on experience with Windows Server administration while documenting each task as I completed it.
+Throughout this project, I configured **Active Directory**, managed **Users and Groups**, applied **Group Policy (GPO)**, created **Shared Folders**, joined **Windows 10 clients** to the **Domain**, and worked through common **Troubleshooting** scenarios.
+
+This project gave me hands-on experience with **Windows Server 2022 administration** while documenting each task as I completed it.
 
 ---
 
