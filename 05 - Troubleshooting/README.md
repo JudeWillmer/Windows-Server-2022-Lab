@@ -270,3 +270,62 @@ A user contacts the IT Help Desk because the standard **JayTech** desktop wallpa
 **Figure 5:** Desktop Wallpaper Group Policy successfully applied after correcting the Group Policy configuration and refreshing Group Policy on the domain client.
 
 <img width="1917" height="913" alt="16 – Troubleshooting Group Policy Application" src="https://github.com/user-attachments/assets/75dd680a-2721-4113-ad5c-fcbda769d8fb" />
+
+# Task 5 - Restoring Access to a Shared Folder
+
+## Objective
+
+Troubleshoot and restore access to a shared network folder by identifying and correcting a missing **Active Directory** security group membership.
+
+---
+
+## Implementation
+
+I investigated why a domain user was unable to access the mapped **Sales** shared folder after receiving an **Access Denied** error. I reviewed the user's **Active Directory** group memberships and identified that the required **Sales_Users** security group membership had been removed. I restored the user's membership to the **Sales_Users** security group, signed out of the client workstation, and signed back in to refresh the user's security token. I then verified that access to the shared folder had been successfully restored.
+
+---
+
+## Navigation
+
+```text
+Server Manager
+→ Tools
+→ Active Directory Users and Computers
+→ JayTech
+→ Users
+→ Mario Katoch
+→ Properties
+→ Member Of
+```
+
+---
+
+## Outcome
+
+Access to the **Sales** shared folder was successfully restored by reassigning the appropriate **Active Directory** security group membership. After the user signed back in, the mapped network drive was accessible and normal access to the shared folder was restored.
+
+---
+
+## Scenario
+
+A user contacts the IT Help Desk after receiving an **Access Denied** error when attempting to access the mapped **Sales** shared folder. I investigated the issue by reviewing the user's **Active Directory** group memberships and identified that the required **Sales_Users** security group membership had been removed. After restoring the user's membership and refreshing the user's logon session, I confirmed that access to the shared folder had been successfully restored. This demonstrates how **Active Directory** security groups are commonly used to manage access to shared network resources within a **Windows Server** environment.
+
+---
+
+## Screenshot
+
+**Figure 1:** Reviewing the user's **Active Directory** group memberships and identifying that the **Sales_Users** security group membership is missing.
+
+<img width="1413" height="891" alt="17 – Restoring Access to a Shared Folder" src="https://github.com/user-attachments/assets/71c0fa9a-2077-40f1-ae28-4999e7ead2a9" />
+
+**Figure 2:** Verifying that access to the **Sales** shared folder is denied after the required **Active Directory** security group membership was removed.
+
+<img width="1918" height="913" alt="18 – Restoring Access to a Shared Folder" src="https://github.com/user-attachments/assets/4dbca07a-1d21-4391-837d-4e5fed742938" />
+
+**Figure 3:** Restoring access by adding the user back to the **Sales_Users** Active Directory security group.
+
+<img width="1472" height="913" alt="19 – Restoring Access to a Shared Folder" src="https://github.com/user-attachments/assets/61b7a8b8-9d79-468b-af6e-8e93f1fc35b1" />
+
+**Figure 4:** Verifying that access to the **Sales** shared folder was successfully restored after updating the user's **Active Directory** group membership.
+
+<img width="1631" height="915" alt="20 – Restoring Access to a Shared Folder" src="https://github.com/user-attachments/assets/c442596d-5b26-4db0-9a30-15c0312a3da9" />
