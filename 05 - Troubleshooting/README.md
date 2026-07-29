@@ -334,13 +334,13 @@ A user contacts the IT Help Desk after receiving an **Access Denied** error when
 
 ## Objective
 
-Troubleshoot and restore DNS name resolution by identifying and correcting an incorrect DNS server configuration on a domain-joined client.
+Troubleshoot and restore **DNS** name resolution by identifying and correcting an incorrect **DNS Server** configuration on a domain-joined client.
 
 ---
 
 ## Implementation
 
-I investigated why a domain-joined client was unable to resolve the domain controller hostname. I confirmed the issue by attempting to ping the domain controller, which failed due to a DNS resolution error. I reviewed the client's IPv4 configuration and identified that the Preferred DNS Server was incorrectly configured to use a public DNS server instead of the internal **Active Directory** DNS server. I corrected the DNS server configuration, cleared the DNS resolver cache, and verified that the client could successfully resolve and communicate with the domain controller.
+I investigated why a domain-joined client was unable to resolve the domain controller hostname. I confirmed the issue by attempting to **ping** the domain controller, which failed due to a **DNS** resolution error. I reviewed the client's **IPv4** configuration and identified that the **Preferred DNS Server** was incorrectly configured to use a public **DNS Server** instead of the internal **Active Directory DNS Server**. I corrected the **DNS Server** configuration, cleared the **DNS Resolver Cache**, and verified that the client could successfully resolve and communicate with the domain controller.
 
 ---
 
@@ -359,13 +359,13 @@ Control Panel
 
 ## Outcome
 
-DNS name resolution was successfully restored by correcting the client's Preferred DNS Server configuration. After clearing the DNS resolver cache, the client successfully resolved the domain controller hostname and normal network communication was restored.
+**DNS** name resolution was successfully restored by correcting the client's **Preferred DNS Server** configuration. After clearing the **DNS Resolver Cache**, the client successfully resolved the domain controller hostname and normal network communication was restored.
 
 ---
 
 ## Scenario
 
-A user contacts the IT Help Desk after reporting that they are unable to access domain resources using the server hostname. I investigated the issue by testing connectivity and reviewing the client's network configuration. The workstation was found to be using an incorrect public DNS server instead of the internal **Active Directory** DNS server. After correcting the DNS configuration and clearing the DNS resolver cache, I verified that the client could successfully resolve and communicate with the domain controller.
+A user contacts the **IT Help Desk** after reporting that they are unable to access domain resources using the server hostname. I investigated the issue by testing connectivity and reviewing the client's **IPv4** configuration. The workstation was found to be using an incorrect public **DNS Server** instead of the internal **Active Directory DNS Server**. After correcting the **DNS Server** configuration and clearing the **DNS Resolver Cache**, I verified that the client could successfully resolve and communicate with the domain controller.
 
 ---
 
