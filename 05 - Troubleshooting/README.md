@@ -346,14 +346,16 @@ I investigated why a domain-joined client was unable to resolve the domain contr
 
 ## Navigation
 
-Control Panel  
-→ Network and Internet  
-→ Network and Sharing Center  
-→ Change adapter settings  
-→ Ethernet  
-→ Properties  
-→ Internet Protocol Version 4 (TCP/IPv4)  
+```text
+Control Panel
+→ Network and Internet
+→ Network and Sharing Center
+→ Change adapter settings
+→ Ethernet
 → Properties
+→ Internet Protocol Version 4 (TCP/IPv4)
+→ Properties
+```
 
 ---
 
