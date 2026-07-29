@@ -50,4 +50,4 @@ Joining a Windows client to the Active Directory domain, verifying domain authen
 
 ### 📁 05 - Troubleshooting
 
-Investigating and resolving common Windows Server and Active Directory issues, including Group Policy, DNS, authentication, domain join, and file permission problems.
+Investigating and resolving common Windows Server and Active Directory issues, including user account, Group Policy, shared folder access, and DNS resolution problems.
