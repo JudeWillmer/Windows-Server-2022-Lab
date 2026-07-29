@@ -329,3 +329,60 @@ A user contacts the IT Help Desk after receiving an **Access Denied** error when
 **Figure 4:** Verifying that access to the **Sales** shared folder was successfully restored after updating the user's **Active Directory** group membership.
 
 <img width="1631" height="915" alt="20 – Restoring Access to a Shared Folder" src="https://github.com/user-attachments/assets/c442596d-5b26-4db0-9a30-15c0312a3da9" />
+
+# Task 6 - Troubleshooting DNS Resolution
+
+## Objective
+
+Troubleshoot and restore DNS name resolution by identifying and correcting an incorrect DNS server configuration on a domain-joined client.
+
+---
+
+## Implementation
+
+I investigated why a domain-joined client was unable to resolve the domain controller hostname. I confirmed the issue by attempting to ping the domain controller, which failed due to a DNS resolution error. I reviewed the client's IPv4 configuration and identified that the Preferred DNS Server was incorrectly configured to use a public DNS server instead of the internal **Active Directory** DNS server. I corrected the DNS server configuration, cleared the DNS resolver cache, and verified that the client could successfully resolve and communicate with the domain controller.
+
+---
+
+## Navigation
+
+Control Panel  
+→ Network and Internet  
+→ Network and Sharing Center  
+→ Change adapter settings  
+→ Ethernet  
+→ Properties  
+→ Internet Protocol Version 4 (TCP/IPv4)  
+→ Properties
+
+---
+
+## Outcome
+
+DNS name resolution was successfully restored by correcting the client's Preferred DNS Server configuration. After clearing the DNS resolver cache, the client successfully resolved the domain controller hostname and normal network communication was restored.
+
+---
+
+## Scenario
+
+A user contacts the IT Help Desk after reporting that they are unable to access domain resources using the server hostname. I investigated the issue by testing connectivity and reviewing the client's network configuration. The workstation was found to be using an incorrect public DNS server instead of the internal **Active Directory** DNS server. After correcting the DNS configuration and clearing the DNS resolver cache, I verified that the client could successfully resolve and communicate with the domain controller.
+
+---
+
+## Screenshot
+
+**Figure 1:** Confirming that the domain controller hostname cannot be resolved after the client was configured to use an incorrect DNS server.
+
+<img width="1495" height="912" alt="21 – Troubleshooting DNS Resolution" src="https://github.com/user-attachments/assets/e55d389d-f11d-48aa-b540-8135612447fd" />
+
+**Figure 2:** Reviewing the client's IPv4 configuration and identifying that the Preferred DNS Server is incorrectly configured to use a public DNS server instead of the internal **Active Directory** DNS server.
+
+<img width="1342" height="915" alt="22 – Troubleshooting DNS Resolution" src="https://github.com/user-attachments/assets/9d2b9aa1-a36b-4de0-bff4-08d23484e988" />
+
+**Figure 3:** Correcting the client's Preferred DNS Server to use the internal **Active Directory** DNS server hosted on the domain controller.
+
+<img width="1388" height="915" alt="23 – Troubleshooting DNS Resolution" src="https://github.com/user-attachments/assets/8a390353-adb9-4255-80ca-2d36fcb61020" />
+
+**Figure 4:** Verifying that DNS resolution was successfully restored by clearing the DNS resolver cache and confirming that the client can successfully resolve and communicate with the domain controller.
+
+<img width="1505" height="912" alt="24 – Troubleshooting DNS Resolution" src="https://github.com/user-attachments/assets/3639752c-94a7-4e37-9f49-6f6008b04592" />
